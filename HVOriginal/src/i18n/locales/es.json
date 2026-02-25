@@ -1,0 +1,221 @@
+{
+  "name": "Jhulian Ramírez",
+  "title": "Arquitecto Desarrollador",
+  "profile": "Arquitecto de software con 10+ años de experiencia diseñando arquitecturas escalables en .NET, Angular y Azure. Especialista en IA generativa y LangChain, he liderado equipos en proyectos de transformación digital para empresas como EPM, XM y Ruta N, optimizando rendimiento hasta 50% y estableciendo pipelines CI/CD robustos. Certificado en Azure, AWS y Scrum con nivel de inglés alto.",
+  "exportPDF": "Exportar a PDF",
+  "exporting": "Generando PDF...",
+  "contact": {
+    "email": "ramirezjhulian7@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jhulianramirez/",
+    "phone": "+57 321 884 5427",
+    "location": "La Ceja, Antioquia, Colombia"
+  },
+  "sections": {
+    "profile": "Perfil Profesional",
+    "skills": "Habilidades Técnicas",
+    "experience": "Experiencia Laboral",
+    "education": "Educación",
+    "certifications": "Licencias y Certificaciones",
+    "language": "Idioma",
+    "languages": "Lenguajes",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "databases": "Bases de Datos",
+    "cloud": "Cloud",
+    "architecture": "Arquitectura",
+    "devops": "DevOps",
+    "testing": "Testing",
+    "emergingTech": "Tecnologías Emergentes"
+  },
+  "skills": {
+    "language": ["Español (Nativo)", "Inglés (C2 Proficient)"],
+    "languages": ["C#", "TypeScript", "JavaScript", "Python"],
+    "backend": [".NET", ".NET Core", "Node.JS", "NestJS"],
+    "frontend": ["Angular", "React", "HTML", "CSS", "Bootstrap"],
+    "databases": ["MongoDB", "SQL Server", "MySQL", "Azure Cosmos DB"],
+    "cloud": ["Azure", "AWS"],
+    "architecture": ["Microservicios", "Arquitectura Hexagonal", "DDD", "Clean Architecture"],
+    "devops": ["Azure DevOps", "Docker", "Kubernetes", "Rancher", "Git"],
+    "testing": ["Pruebas Unitarias", "Pruebas de Integración", "Pruebas Funcionales"],
+    "emergingTech": ["IA/ML", "LangChain", "OpenAI", "IoT", "Blockchain"]
+  },
+  "education": [
+    {
+      "institution": "Politécnico Gran Colombiano",
+      "degree": "Ingeniero de Software",
+      "period": "",
+      "icon": "🎓"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "issuer": "Microsoft",
+      "date": "may. 2022",
+      "icon": "☁️"
+    },
+    {
+      "name": "AWS Knowledge: Cloud Essentials",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "oct. 2025",
+      "icon": "☁️"
+    },
+    {
+      "name": "AWS Partner: Foundations (Technical)",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "jun. 2021",
+      "icon": "☁️"
+    },
+    {
+      "name": "Scrum Foundation Professional Certificate",
+      "issuer": "CertiProf",
+      "date": "mar. 2024",
+      "icon": "📋"
+    },
+    {
+      "name": "EF SET English Certificate (C2 Proficient)",
+      "issuer": "EF SET",
+      "date": "oct. 2022",
+      "score": "76/100",
+      "icon": "🌐"
+    },
+    {
+      "name": "Curso de LangChain",
+      "issuer": "Platzi",
+      "date": "mar. 2025",
+      "icon": "🤖"
+    },
+    {
+      "name": "Curso de Desarrollo de Chatbots con OpenAI",
+      "issuer": "Platzi",
+      "date": "mar. 2025",
+      "icon": "🤖"
+    },
+    {
+      "name": "Curso de Estrategia y Liderazgo de Proyectos de Gen AI",
+      "issuer": "Platzi",
+      "date": "mar. 2025",
+      "icon": "🤖"
+    },
+    {
+      "name": "Curso de IA para Product Discovery y Design",
+      "issuer": "Platzi",
+      "date": "mar. 2025",
+      "icon": "🤖"
+    },
+    {
+      "name": "Curso de Ética y Manejo de Datos para IA",
+      "issuer": "Platzi",
+      "date": "mar. 2025",
+      "icon": "🤖"
+    },
+    {
+      "name": "Curso de React.js",
+      "issuer": "Platzi",
+      "date": "jul. 2024",
+      "icon": "⚛️"
+    },
+    {
+      "name": "Curso de Docker",
+      "issuer": "Platzi",
+      "date": "sept. 2022",
+      "icon": "🐳"
+    },
+    {
+      "name": "Curso de Fundamentos de Angular",
+      "issuer": "Platzi",
+      "date": "sept. 2022",
+      "icon": "🅰️"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Asimetrix",
+      "position": "Arquitecto Senior de Software",
+      "period": "06/2025 - Presente",
+      "project": "SmartFarm",
+      "description": "Como Arquitecto Senior de Software, diseño e implemento arquitecturas robustas, escalables y limpias aplicando paradigmas modernos como DDD, Clean Architecture y patrones de diseño SOLID para fomentar mantenibilidad y agilidad.",
+      "highlights": [
+        "Integro herramientas de IA en el ciclo de desarrollo, reduciendo tiempo de revisión de código en 30% mediante code reviews automatizados y asistencia de refactorización",
+        "Lidero mentoría técnica a equipos multidisciplinarios en BI, ML, AI e Ingeniería de Datos, mejorando la calidad del código en 40%"
+      ]
+    },
+    {
+      "company": "Ceiba Software",
+      "position": "Arquitecto Desarrollador",
+      "period": "03/2021 - 05/2025",
+      "project": "Ciudadano 360° - Ruta N",
+      "projectPeriod": "11/2024 - 05/2025",
+      "description": "Agente conversacional basado en LLM para interacción ciudadana con la alcaldía de Medellín.",
+      "highlights": [
+        "Diseñé e implementé agente basado en LLM con LangChain, atendiendo +10,000 consultas ciudadanas mensuales",
+        "Integré NestJS (backend) y React (frontend), reduciendo tiempo de respuesta en 60%",
+        "Desplegué en Azure con escalabilidad y seguridad, logrando 99.9% de uptime"
+      ]
+    },
+    {
+      "company": "Ceiba Software",
+      "position": "Arquitecto Desarrollador",
+      "period": "03/2021 - 05/2025",
+      "project": "XM RPM",
+      "projectPeriod": "06/2023 - 11/2023",
+      "description": "Sistema de gestión de archivos XML para el sector energético.",
+      "highlights": [
+        "Desarrollé interfaces para carga de archivos XML con validación en tiempo real, procesando +5,000 archivos diarios",
+        "Implementé manejo de errores robusto, reduciendo incidentes de datos corruptos en 80%",
+        "Optimicé rendimiento de aplicación logrando mejora del 50% en tiempos de carga"
+      ]
+    },
+    {
+      "company": "Ceiba Software",
+      "position": "Arquitecto Desarrollador",
+      "period": "03/2021 - 05/2025",
+      "project": "Digital Credit Comfamiliar Risaralda",
+      "projectPeriod": "08/2022 - 05/2023",
+      "description": "Plataforma de crédito digital para caja de compensación con +500,000 afiliados.",
+      "highlights": [
+        "Desarrollé plataforma de crédito digital .NET/Angular, procesando +2,000 solicitudes mensuales",
+        "Implementé arquitectura hexagonal reduciendo acoplamiento y mejorando testabilidad en 60%",
+        "Establecí pipelines CI/CD con Azure DevOps, reduciendo tiempo de deployment de 4h a 20min"
+      ]
+    },
+    {
+      "company": "Ceiba Software",
+      "position": "Arquitecto Desarrollador",
+      "period": "03/2021 - 05/2025",
+      "project": "Two Speed Architecture - EPM",
+      "projectPeriod": "04/2021 - 08/2022",
+      "description": "Modernización de aplicaciones críticas para empresa de servicios públicos líder en Colombia.",
+      "highlights": [
+        "Implementé tecnologías 4RI (IA/IoT/Blockchain) para gestión de activos de infraestructura",
+        "Desarrollé sistema de gestión documental manejando +1M de documentos",
+        "Lideré modernización de 5 aplicaciones críticas legacy a arquitectura de microservicios"
+      ]
+    },
+    {
+      "company": "Salud Mental Integral SAMEIN",
+      "position": "Coordinador de TI",
+      "period": "03/2015 - 02/2021",
+      "project": "Sistema Médico Medisoft",
+      "projectPeriod": "03/2015 - 02/2021",
+      "description": "Desarrollo y mantenimiento del sistema de información hospitalario.",
+      "highlights": [
+        "Desarrollé módulos de gestión clínica (HCE, farmacia, contabilidad) para +200 usuarios diarios",
+        "Gestioné infraestructura de red y ciberseguridad para 3 sedes, logrando 0 incidentes de seguridad críticos",
+        "Implementé sistema de telefonía IP reduciendo costos de comunicación en 40%"
+      ]
+    },
+    {
+      "company": "Seguros Suramericana",
+      "position": "Practicante Scrum y Product Owner",
+      "period": "09/2014 - 02/2015",
+      "project": "Sistema de Gestión de Rentas Vitalicias",
+      "projectPeriod": "09/2014 - 02/2015",
+      "description": "Gestión de producto para sistema de rentas vitalicias.",
+      "highlights": [
+        "Lideré ciclo de vida del desarrollo como Product Owner, gestionando backlog de +50 historias de usuario",
+        "Coordiné requisitos de stakeholders y entregables del equipo de 8 desarrolladores"
+      ]
+    }
+  ]
+}

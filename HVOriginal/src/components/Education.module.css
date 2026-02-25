@@ -1,0 +1,161 @@
+.education {
+  padding: 4rem 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.certSection {
+  margin-top: 4rem;
+}
+
+/* Education Cards */
+.educationGrid {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.educationCard {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  transition: all 0.3s ease;
+}
+
+.educationCard:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 30px rgba(99, 102, 241, 0.15);
+}
+
+.eduIcon {
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+
+.eduContent {
+  flex: 1;
+}
+
+.degree {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.institution {
+  font-size: 1.1rem;
+  color: var(--primary);
+  margin-bottom: 0.25rem;
+}
+
+.period {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Certifications Grid */
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.certCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  transition: all 0.3s ease;
+}
+
+.certCard:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.1);
+}
+
+.certIcon {
+  font-size: 1.75rem;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.certContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.certName {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.35rem;
+  line-height: 1.3;
+}
+
+.certIssuer {
+  font-size: 0.85rem;
+  color: var(--primary);
+  margin-bottom: 0.25rem;
+}
+
+.certDate {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.score {
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .educationCard {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .eduIcon {
+    font-size: 2.5rem;
+  }
+
+  .degree {
+    font-size: 1.25rem;
+  }
+
+  .certGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .certCard {
+    padding: 1rem;
+  }
+
+  .certIcon {
+    font-size: 1.5rem;
+  }
+
+  .certName {
+    font-size: 0.9rem;
+  }
+}

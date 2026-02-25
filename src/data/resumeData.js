@@ -1,0 +1,156 @@
+export const profile = {
+    name: 'Jhulian Ramírez',
+    title: 'Software Architect Developer',
+    location: 'La Ceja, Antioquia, Colombia',
+    email: 'ramirezjhulian7@gmail.com',
+    phone: '+57 321 884 5427',
+    linkedin: 'https://www.linkedin.com/in/jhulianramirez/',
+    website: 'https://jhulian-resume.web.app/',
+    summary: 'Software architect with 10+ years of experience designing scalable architectures in .NET, Angular, and Azure. Specialist in generative AI and LangChain, I have led teams in digital transformation projects for companies like EPM, XM, and Ruta N, optimizing performance by up to 50% and establishing robust CI/CD pipelines. Certified in Azure, AWS, and Scrum with high English proficiency.',
+    languages: [
+        { name: 'Spanish', level: 'Native' },
+        { name: 'English', level: 'C2 Proficient' },
+    ],
+};
+
+export const skills = {
+    'Languages': ['C#', 'TypeScript', 'JavaScript', 'Python'],
+    'Backend': ['.NET', '.NET Core', 'Node.JS', 'NestJS'],
+    'Frontend': ['Angular', 'React', 'HTML', 'CSS', 'Bootstrap'],
+    'Databases': ['MongoDB', 'SQL Server', 'MySQL', 'Azure Cosmos DB'],
+    'Cloud': ['Azure', 'AWS'],
+    'Architecture': ['Microservices', 'Hexagonal Architecture', 'DDD', 'Clean Architecture'],
+    'DevOps': ['Azure DevOps', 'Docker', 'Kubernetes', 'Rancher', 'Git'],
+    'Testing': ['Unit Testing', 'Integration Testing', 'Functional Testing'],
+    'Emerging Tech': ['AI/ML', 'LangChain', 'OpenAI', 'IoT', 'Blockchain'],
+};
+
+export const experience = [
+    {
+        company: 'Asimetrix',
+        role: 'Senior Software Architect',
+        period: '06/2025 - Present',
+        location: 'Colombia',
+        project: 'SmartFarm',
+        description: 'As a Senior Software Architect, I design and implement robust, scalable, and clean architectures applying modern paradigms such as DDD, Clean Architecture, and SOLID design patterns to foster maintainability and agility.',
+        achievements: [
+            'Integrate AI tools in the development lifecycle, reducing code review time by 30% through automated reviews and refactoring assistance',
+            'Lead technical mentorship for multidisciplinary teams in BI, ML, AI, and Data Engineering, improving code quality by 40%',
+        ],
+        tech: ['.NET', 'Angular', 'Azure', 'AI/ML', 'DDD', 'Clean Architecture'],
+    },
+    {
+        company: 'Ceiba Software',
+        role: 'Architect Developer',
+        period: '03/2021 - 05/2025',
+        location: 'Medellín, Colombia',
+        project: 'Ciudadano 360° - Ruta N',
+        projectPeriod: '11/2024 - 05/2025',
+        description: 'LLM-based conversational agent for citizen interaction with Medellín\'s city hall.',
+        achievements: [
+            'Designed and implemented LLM-based agent with LangChain, handling +10,000 monthly citizen queries',
+            'Integrated NestJS (backend) and React (frontend), reducing response time by 60%',
+            'Deployed on Azure with scalability and security, achieving 99.9% uptime',
+        ],
+        tech: ['NestJS', 'React', 'LangChain', 'Azure', 'TypeScript'],
+    },
+    {
+        company: 'Ceiba Software',
+        role: 'Architect Developer',
+        period: '03/2021 - 05/2025',
+        location: 'Medellín, Colombia',
+        project: 'XM RPM',
+        projectPeriod: '06/2023 - 11/2023',
+        description: 'XML file management system for the energy sector.',
+        achievements: [
+            'Developed interfaces for XML file upload with real-time validation, processing +5,000 daily files',
+            'Implemented robust error handling, reducing corrupted data incidents by 80%',
+            'Optimized application performance achieving 50% improvement in load times',
+        ],
+        tech: ['.NET', 'Angular', 'SQL Server', 'Azure DevOps'],
+    },
+    {
+        company: 'Ceiba Software',
+        role: 'Architect Developer',
+        period: '03/2021 - 05/2025',
+        location: 'Medellín, Colombia',
+        project: 'Digital Credit Comfamiliar Risaralda',
+        projectPeriod: '08/2022 - 05/2023',
+        description: 'Digital credit platform for compensation fund with +500,000 affiliates.',
+        achievements: [
+            'Developed .NET/Angular digital credit platform, processing +2,000 monthly applications',
+            'Implemented hexagonal architecture reducing coupling and improving testability by 60%',
+            'Established CI/CD pipelines with Azure DevOps, reducing deployment time from 4h to 20min',
+        ],
+        tech: ['.NET', 'Angular', 'Hexagonal Architecture', 'Azure DevOps'],
+    },
+    {
+        company: 'Ceiba Software',
+        role: 'Architect Developer',
+        period: '03/2021 - 05/2025',
+        location: 'Medellín, Colombia',
+        project: 'Two Speed Architecture - EPM',
+        projectPeriod: '04/2021 - 08/2022',
+        description: 'Modernization of critical applications for Colombia\'s leading public utilities company.',
+        achievements: [
+            'Implemented 4IR technologies (AI/IoT/Blockchain) for infrastructure asset management',
+            'Developed document management system handling +1M documents',
+            'Led modernization of 5 critical legacy applications to microservices architecture',
+        ],
+        tech: ['.NET', 'Angular', 'AI', 'IoT', 'Blockchain', 'Microservices'],
+    },
+    {
+        company: 'Salud Mental Integral SAMEIN',
+        role: 'IT Coordinator',
+        period: '03/2015 - 02/2021',
+        location: 'La Ceja, Colombia',
+        project: 'Medisoft Medical System',
+        projectPeriod: '03/2015 - 02/2021',
+        description: 'Development and maintenance of hospital information system.',
+        achievements: [
+            'Developed clinical management modules (EHR, pharmacy, accounting) for +200 daily users',
+            'Managed network infrastructure and cybersecurity for 3 locations, achieving 0 critical security incidents',
+            'Implemented IP telephony system reducing communication costs by 40%',
+        ],
+        tech: ['C#', '.NET', 'SQL Server', 'Windows Server'],
+    },
+    {
+        company: 'Seguros Suramericana',
+        role: 'Scrum Intern and Product Owner',
+        period: '09/2014 - 02/2015',
+        location: 'Medellín, Colombia',
+        project: 'Life Annuity Management System',
+        projectPeriod: '09/2014 - 02/2015',
+        description: 'Product management for life annuity system.',
+        achievements: [
+            'Led development lifecycle as Product Owner, managing backlog of +50 user stories',
+            'Coordinated stakeholder requirements and deliverables for team of 8 developers',
+        ],
+        tech: ['.NET', 'SQL Server', 'Scrum'],
+    },
+];
+
+export const education = [
+    {
+        degree: 'Software Engineer',
+        institution: 'Politécnico Gran Colombiano',
+        period: '2023 - 2026',
+        icon: '🎓',
+    },
+];
+
+export const certifications = [
+    { name: 'Microsoft Certified: Azure Fundamentals', issuer: 'Microsoft', date: 'May 2022', icon: '☁️' },
+    { name: 'AWS Knowledge: Cloud Essentials', issuer: 'Amazon Web Services (AWS)', date: 'Oct 2025', icon: '☁️' },
+    { name: 'AWS Partner: Foundations (Technical)', issuer: 'Amazon Web Services (AWS)', date: 'Jun 2021', icon: '☁️' },
+    { name: 'Scrum Foundation Professional Certificate', issuer: 'CertiProf', date: 'Mar 2024', icon: '📋' },
+    { name: 'EF SET English Certificate (C2 Proficient)', issuer: 'EF SET', date: 'Oct 2022', icon: '🌐' },
+    { name: 'LangChain Course', issuer: 'Platzi', date: 'Mar 2025', icon: '🤖' },
+    { name: 'Chatbot Development with OpenAI', issuer: 'Platzi', date: 'Mar 2025', icon: '🤖' },
+    { name: 'Gen AI Project Strategy & Leadership', issuer: 'Platzi', date: 'Mar 2025', icon: '🤖' },
+    { name: 'AI for Product Discovery & Design', issuer: 'Platzi', date: 'Mar 2025', icon: '🤖' },
+    { name: 'Ethics & Data Management for AI', issuer: 'Platzi', date: 'Mar 2025', icon: '🤖' },
+    { name: 'React.js Course', issuer: 'Platzi', date: 'Jul 2024', icon: '⚛️' },
+    { name: 'Docker Course', issuer: 'Platzi', date: 'Sep 2022', icon: '🐳' },
+    { name: 'Angular Fundamentals Course', issuer: 'Platzi', date: 'Sep 2022', icon: '🅰️' },
+];
