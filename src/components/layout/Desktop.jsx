@@ -2,6 +2,7 @@ import React from 'react';
 import MenuBar from './MenuBar';
 import Dock from './Dock';
 import WindowManager from '../system/WindowManager';
+import Tutorial from '../system/Tutorial';
 import { AppsProvider } from '../../context/AppsContext';
 
 const Desktop = () => {
@@ -13,6 +14,7 @@ const Desktop = () => {
                     <WindowManager />
                 </div>
                 <Dock />
+                <Tutorial />
             </div>
         </AppsProvider>
     );
