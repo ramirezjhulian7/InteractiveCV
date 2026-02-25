@@ -846,3 +846,258 @@ body {
 .settings-toggle.on::after {
   transform: translateX(20px);
 }
+
+/* ========= iOS Mobile Shell ========= */
+.mobile-shell {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(ellipse at top left, #4a2d8a 0%, #d05070 35%, #f5a060 65%, #fbd58e 100%);
+  overflow: hidden;
+}
+
+/* Status Bar */
+.mobile-status-bar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 100;
+}
+.mobile-status-left { display: flex; align-items: center; gap: 6px; }
+.mobile-status-right { display: flex; align-items: center; gap: 8px; }
+.mobile-status-time { font-weight: 700; font-size: 15px; }
+.mobile-status-notch {
+  width: 120px;
+  height: 28px;
+  background: #000;
+  border-radius: 0 0 18px 18px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mobile-lang-toggle {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  cursor: pointer;
+}
+
+/* Home Screen */
+.mobile-home {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  overflow-y: auto;
+}
+
+/* Profile Widget */
+.mobile-profile-widget {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  margin: 8px 0 20px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.mobile-profile-img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.3);
+  flex-shrink: 0;
+}
+.mobile-profile-info { flex: 1; }
+.mobile-profile-name { font-size: 17px; font-weight: 700; color: #fff; }
+.mobile-profile-title { font-size: 12px; color: rgba(255,255,255,0.8); margin-top: 2px; }
+.mobile-profile-location { font-size: 11px; color: rgba(255,255,255,0.6); margin-top: 4px; }
+
+/* App Grid */
+.mobile-app-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 8px;
+  padding: 0 4px;
+  flex: 1;
+}
+.mobile-app-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.mobile-app-icon:active .mobile-app-icon-img {
+  transform: scale(0.9);
+}
+.mobile-app-icon-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.15s ease;
+}
+.mobile-app-icon-label {
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  max-width: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Bottom Dock */
+.mobile-dock {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 12px 24px;
+  margin: 12px 20px 16px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.15);
+  flex-shrink: 0;
+}
+.mobile-dock-icon {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.mobile-dock-icon:active .mobile-app-icon-img {
+  transform: scale(0.9);
+}
+.mobile-dock-icon .mobile-app-icon-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+}
+
+/* App View (full screen) */
+.mobile-app-view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #1c1c1e;
+  animation: mobileSlideIn 0.3s ease;
+  overflow: hidden;
+}
+.mobile-app-navbar {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  background: rgba(28,28,30, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  flex-shrink: 0;
+}
+.mobile-app-back {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #3b82f6;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.mobile-app-content {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+@keyframes mobileSlideIn {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* ========= Mobile responsive adjustments for apps ========= */
+@media (max-width: 767px) {
+  /* Finder, Notes, Settings: make sidebar stack vertically or hide */
+  .finder-app, .notes-app, .settings-app {
+    flex-direction: column;
+  }
+  .finder-sidebar, .notes-sidebar, .settings-sidebar {
+    flex-direction: row;
+    width: 100%;
+    min-width: unset;
+    max-height: 50px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 4px;
+    padding: 6px 8px;
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .finder-sidebar-heading, .settings-sidebar-heading {
+    display: none;
+  }
+  .finder-sidebar-item, .settings-sidebar-item {
+    white-space: nowrap;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 12px;
+  }
+  .notes-sidebar {
+    max-height: 120px;
+    flex-direction: column;
+  }
+  .notes-sidebar-header {
+    padding: 6px 8px;
+  }
+  .notes-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 4px;
+    padding: 0 8px 6px;
+  }
+  .notes-list-item {
+    min-width: 120px;
+    flex-shrink: 0;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border-bottom: none;
+  }
+  
+  /* Terminal */
+  .terminal-app {
+    font-size: 12px;
+  }
+  
+  /* Safari */
+  .safari-toolbar {
+    padding: 4px 8px;
+    gap: 4px;
+  }
+  .safari-url-bar {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+}
