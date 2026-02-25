@@ -22,7 +22,7 @@ const SettingsApp = () => {
                 return (<>
                     <div className="settings-section-title">{t('about')}</div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 20, marginBottom: 24, background: 'rgba(255,255,255,0.04)', borderRadius: 12, padding: 20, border: '1px solid rgba(255,255,255,0.06)' }}>
-                        <img src="/profile.jpeg" alt={profile.name} style={{ width: 80, height: 80, borderRadius: '50%', objectFit: 'cover', flexShrink: 0, boxShadow: '0 2px 12px rgba(0,0,0,0.3)', border: '2px solid rgba(255,255,255,0.1)' }} />
+                        <img src={`${import.meta.env.BASE_URL}profile.jpeg`} alt={profile.name} style={{ width: 80, height: 80, borderRadius: '50%', objectFit: 'cover', flexShrink: 0, boxShadow: '0 2px 12px rgba(0,0,0,0.3)', border: '2px solid rgba(255,255,255,0.1)' }} />
                         <div>
                             <div style={{ fontSize: 22, fontWeight: 700, color: '#fff' }}>{profile.name}</div>
                             <div style={{ fontSize: 14, color: '#3b82f6', marginTop: 2 }}>{profile.title}</div>

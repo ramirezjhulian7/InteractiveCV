@@ -15,7 +15,7 @@ const AboutMac = ({ onClose }) => {
                 border: '1px solid rgba(255,255,255,0.1)',
                 textAlign: 'center', padding: '28px 28px 24px', color: '#fff',
             }}>
-                <img src="/profile.jpeg" alt={profile.name} style={{
+                <img src={`${import.meta.env.BASE_URL}profile.jpeg`} alt={profile.name} style={{
                     width: 90, height: 90, borderRadius: '50%', margin: '0 auto 16px',
                     objectFit: 'cover', boxShadow: '0 4px 20px rgba(0,0,0,0.4)',
                     border: '3px solid rgba(255,255,255,0.15)',

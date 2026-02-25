@@ -38,7 +38,7 @@ const Tutorial = () => {
                     padding: '32px 32px 20px', textAlign: 'center',
                     background: 'linear-gradient(135deg, rgba(102,126,234,0.2) 0%, rgba(118,75,162,0.2) 100%)',
                 }}>
-                    <img src="/profile.jpeg" alt="Jhulian" style={{
+                    <img src={`${import.meta.env.BASE_URL}profile.jpeg`} alt="Jhulian" style={{
                         width: 70, height: 70, borderRadius: '50%', objectFit: 'cover',
                         border: '3px solid rgba(255,255,255,0.2)', marginBottom: 12,
                     }} />
